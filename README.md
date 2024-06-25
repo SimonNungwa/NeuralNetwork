@@ -1,5 +1,3 @@
-Here's the complete README in Markdown format:
-
 ```markdown
  Football Game Prediction Neural Network
 
@@ -49,10 +47,9 @@ pip install -r requirements.txt
 To train the neural network and predict football game outcomes, run the following command:
 
 ```bash
-python src/train.py
+python src/main.py
 ```
 
-Make sure to replace `train.py` with the actual name of your training script if it's different.
 
 ## Data
 
