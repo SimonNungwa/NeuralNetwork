@@ -1,0 +1,54 @@
+# Python
+*.py[cod]
+*.ipynb_checkpoints
+__pycache__/
+*.so
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+.pip/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data
+data/raw/
+data/processed/
+*.csv
+*.json
+*.zip
+*.h5
+*.hdf5
+
+# Logs
+*.log
+
+# Models
+models/
+*.h5
+*.hdf5
+*.pb
+*.ckpt
+
+# PyTest
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+.env.*
+
+# Other
+*.bak
+*.swp
