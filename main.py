@@ -25,6 +25,7 @@ model = Sequential([
     Dense(3, activation='softmax')  # Adjust units based on the number of classes in y
 ])
 
+
 # Compile the model
 model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',  # Use 'categorical_crossentropy' for one-hot encoded y
